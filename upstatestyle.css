@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav_items {
+    height: 100vh;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 20px;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.menus a {
+    text-decoration: none;
+    color: white;
+}
+
+.menus a img {
+    height: 150px;
+    width: 180px;
+}
+
+.navbanner {
+    width: 100%;
+    height: 100vh;
+    background-image: url(./LOGO/banner-3.jpg);
+    background-size: cover;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+}
+
+.view1 {
+    padding-left: 20%;
+    padding-top: 10%;
+    color: white;
+}
+
+.view1 p {
+    font-size: 80px;
+}
+
+.locate {
+    padding-left: 20%;
+    padding-top: 20px;
+    color: white;
+}
+
+.locate a {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.locate button {
+    width: 170px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    background: white;
+    border: none;
+}
+
+.locate a:hover {
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+
+.stage_two {
+    display: flex;
+    align-items: center;
+    margin: 150px auto;
+    width: 80%;
+}
+
+.stage_two img {
+    width: 350px;
+}
+
+.details {
+    width: 33.333%;
+    height: 400px;
+    /* background: red; */
+    margin: 2px;
+    text-align: center;
+}
+
+.details h4 {
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+
+.details p {
+    width: 250px;
+    margin: 0 auto;
+    line-height: 25px;
+}
+
+.stage_three {
+    width: 100%;
+    height: 130vh;
+    background-image: url(./LOGO/banner-5.jpg);
+    background-size: cover;
+}
+
+.mission {
+    text-align: center;
+    padding-top: 200px;
+    font-size: 150%;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: white;
+}
+
+.mission p {
+    font-size: 20px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+
+.mission_icons_firstrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px auto 50px;
+    width: 50%;
+    color: white;
+}
+
+.mission_icons_firstrow img {
+    width: 150px;
+}
+
+.mission_icons_firstrow p {
+    padding-top: 20px;
+    font-weight: bold;
+    /*background: red;*/
+    text-align: center;
+}
+
+.mission_icons_secondrow {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px auto;
+    width: 50%;
+    color: white;
+}
+
+.mission_icons_secondrow img {
+    width: 150px;
+}
+
+.mission_icons_secondrow p {
+    padding-top: 20px;
+    font-weight: bold;
+    /*background: red;*/
+    text-align: center;
+}
+
+.stage_four {
+    width: 100%;
+    height: 100vh;
+    padding-top: 150px;
+}
+
+.topic {
+    text-align: center;
+    font-size: 150%;
+}
+
+.review_1 {
+    display: flex;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.review_1 img {
+    height: 20px;
+    width: 20px;
+}
